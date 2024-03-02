@@ -40,6 +40,33 @@ html strong {
     color: #abb17b;
 }
 
+body .section_content, html .section_content {
+    font-weight: 300;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 650px;
+}
+
+.skills .skillz_category_label {
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.skills .skillz_category_item {
+    margin: 3px 0;
+    font-size: .9rem;
+}
+
+.skills .skillz{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
 .intro {
     padding: 120px 100px;
     height: 100vh;
@@ -86,7 +113,7 @@ html strong {
 }
 
 section{
-    height: 100vh;
+    height: 75vh;
 }
 
 
@@ -113,8 +140,8 @@ body .section_title, html .section_title {
     letter-spacing: 2px;
 }
 
-body .section__content,
-html .section__content {
+body .section_content,
+html .section_content {
     font-weight: 300;
     font-size: 1rem;
     width: 100%;

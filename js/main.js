@@ -1,10 +1,10 @@
 $(document).on("scroll", function() {
   var pageTop = $(document).scrollTop();
   var pageBottom = pageTop + $(window).height();
-  var tag = $(".tag");
+  var tags = $(".tag");
 
-  for (var i = 0; i < tag.length; i++) {
-    var tag = tag[i];
+  for (var i = 0; i < tags.length; i++) {
+    var tag = tags[i];
 
     if ($(tag).position().top < pageBottom) {
       $(tag).addClass("visible");
